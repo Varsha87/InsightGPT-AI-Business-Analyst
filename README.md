@@ -40,3 +40,34 @@ The AI agent understands the question, generates the appropriate SQL query, exec
 | PostgreSQL | Relational database |
 | Prompt Engineering | SQL generation and business insights |
 | GitHub | Version control and project hosting |
+
+## 🏗️ Architecture
+
+```text
+                +----------------------+
+                |       User           |
+                +----------+-----------+
+                           |
+                           | Natural Language Question
+                           |
+                           ▼
+                +----------------------+
+                |  Flowise Tool Agent  |
+                +----------+-----------+
+                           |
+              +------------+------------+
+              |                         |
+              ▼                         ▼
+     +----------------+        +--------------------+
+     | Google Gemini  |        | PostgreSQL MCP     |
+     | 2.5 Flash LLM  |        | Read-only Database |
+     +----------------+        +---------+----------+
+                                         |
+                                         ▼
+                              +----------------------+
+                              | Supabase PostgreSQL  |
+                              +----------------------+
+                                         |
+                                         ▼
+                              SQL Results & Insights
+```
