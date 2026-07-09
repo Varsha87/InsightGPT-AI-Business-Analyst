@@ -28,3 +28,15 @@ The AI agent understands the question, generates the appropriate SQL query, exec
 - 📊 Results displayed in Markdown tables
 - ⚡ Built using Flowise Tool Agent
 - 📈 Business-friendly insights without writing SQL
+
+- ## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Flowise | AI workflow orchestration |
+| Google Gemini 2.5 Flash | Large Language Model (LLM) |
+| PostgreSQL MCP | Secure database tool execution |
+| Supabase | PostgreSQL database hosting |
+| PostgreSQL | Relational database |
+| Prompt Engineering | SQL generation and business insights |
+| GitHub | Version control and project hosting |
