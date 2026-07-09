@@ -18,3 +18,13 @@ Instead of manually querying a database, users can ask questions like:
 The AI agent understands the question, generates the appropriate SQL query, executes it safely using PostgreSQL MCP, and returns the results in a readable table.
 
 ---
+
+## ✨ Features
+
+- 🤖 Ask questions in plain English
+- 🧠 Google Gemini converts natural language into SQL
+- 🗄️ Read-only PostgreSQL access using MCP
+- 🔒 Secure database interaction
+- 📊 Results displayed in Markdown tables
+- ⚡ Built using Flowise Tool Agent
+- 📈 Business-friendly insights without writing SQL
