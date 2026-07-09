@@ -71,3 +71,17 @@ The AI agent understands the question, generates the appropriate SQL query, exec
                                          ▼
                               SQL Results & Insights
 ```
+
+
+## 💬 Sample Questions
+
+You can ask questions such as:
+
+- How many customers are there?
+- Show the first 5 rows from `dim_customer`.
+- List all tables in the database.
+- Count customers by market.
+- Show the top 10 customers.
+- Which products generated the highest sales?
+- Show revenue by region.
+- Which customer has the highest sales?
