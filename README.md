@@ -85,3 +85,19 @@ You can ask questions such as:
 - Which products generated the highest sales?
 - Show revenue by region.
 - Which customer has the highest sales?
+
+## 📂 Project Structure
+
+```
+InsightGPT-AI-Business-Analyst/
+│
+├── architecture/        # Architecture diagrams
+├── docs/                # Project documentation
+├── flowise/             # Exported Flowise chatflow
+├── prompts/             # Prompt templates
+├── screenshots/         # Application screenshots
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
